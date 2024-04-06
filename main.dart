@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('shutables'), // Corrected app title
+          title: const Text('shutables'), 
           centerTitle: true,
         ),
         body: const Center(
@@ -11,7 +11,7 @@ void main() => runApp(MaterialApp(
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          child: const Text('anobaa'), // Using Icon widget instead of Text
+          child: const Text('anobaa'), 
         ),
       ),
     ));
